@@ -6,7 +6,6 @@ int led_num = 0;
 byte green = 0;
 bool green_key = true;
 byte red = 0;
-array<int, 8> 
 
 void setup() {
   FastLED.addLeds<WS2811, LED_PIN, GRB>(leds, NUM_LEDS); //.setCorrection( TypicalLEDStrip )
